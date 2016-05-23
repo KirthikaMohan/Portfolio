@@ -1,0 +1,92 @@
+
+/*Responsive*/
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1300px) {
+	#bgimage .heading-text {
+		margin-top:0;
+	}
+	.scrolldown {
+		padding-top: 40px;
+	}
+	.skills-container {
+		width: 80%;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#bgimage .heading-text {
+		margin-top:0;
+	}
+	.scrolldown {
+		padding-top: 40px;
+	}
+	.skills-container{
+		width:60%;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	
+	.contact-address {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.profile-pic img{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.skills-container{
+		width:100%;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 580px) {
+	#bgimage .heading-text {
+	padding-top: 10px;
+	margin-top:50px;
+
+}
+	.scrolldown {
+	padding-top: 40px;
+}
+		#bgimage .main-heading{
+	font-size: 36px;
+	line-height: 38px;
+	font-weight: 600;
+	letter-spacing:1px;
+	}
+	
+	#bgimage h2{
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 600;
+	
+	}
+	#bgimage h4{
+	font-size: 20px;
+	line-height: 22px;
+	
+	}
+	
+	#bgimage.header-image p{
+	font-size: 18px;
+	font-weight: 400;
+}
+		.profile-pic img{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	#contact .contact-info h5{
+		margin-bottom: 20px;}
+	.contact-address {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.skills-container{
+		width:100%;
+	}
+}
